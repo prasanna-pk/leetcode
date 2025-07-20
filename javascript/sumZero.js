@@ -44,7 +44,7 @@ function sumZero3(input) {
         } else if (sum > 0) {
             right--;
         } else {
-            left++;
+            left++; //LESSON: left should be ++ and not --
         }
     }
 }
