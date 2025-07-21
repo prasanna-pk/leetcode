@@ -52,3 +52,4 @@ function validAnagram2(string1, string2) {
 }
 
 console.log(validAnagram2("abca", "bcaa"))
+//
