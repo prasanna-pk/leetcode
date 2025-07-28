@@ -9,7 +9,7 @@ function search(inputArray, val) {
     let min = 0;
     let max = inputArray.length - 1;
 
-    while (min < max) {
+    while (min <= max) {
         let middle = Math.floor((min + max) / 2);
         const value = inputArray[middle];
         if (value === val) {
@@ -24,4 +24,4 @@ function search(inputArray, val) {
     return -1;
 }
 
-console.log(search(inputArray, 7))
+console.log(search([1,2,3,4,5],2))
